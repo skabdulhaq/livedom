@@ -7,6 +7,7 @@ function InputBox({ input, setInput }: Props) {
     <textarea
       value={input}
       autofocus
+      style={{"color":"black"}}
       onInput={(ev) => setInput(ev.currentTarget.value)}
     ></textarea>
   );

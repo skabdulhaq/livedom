@@ -36,7 +36,7 @@ export default function Settings(props: Props) {
           </div>
           <input
             type="text"
-            class="flex-1 text-gray-400"
+            class="flex-1 "
             readonly
             value={props.shareUrl}
           />
